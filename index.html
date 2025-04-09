@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Essenzza - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+ 
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">ESSENZZA</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+      <a href="men.html">Men</a>
+      <a href="women.html">Women</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <h1>Bienvenido a Essenzza</h1>
+    <p>La moda es más que ropa, es una forma de expresión. Descubre nuestras colecciones exclusivas de prendas para hombres y mujeres, donde la calidad y el estilo se fusionan para crear looks únicos.</p>
+  </div>
+
+  <div class="gallery">
+    <a href="https://www.amiparis.com/" target="_blank">
+      <img src="public/img/ami logo.webp" alt="Ami paris">
+    </a>
+    <a href="https://www.allsaints.com/" target="_blank">
+      <img src="public/img/ramskull.jpg" alt="AllSaints">
+    </a>
+    <a href="https://zadig-et-voltaire.com/" target="_blank">
+      <img src="public/img/Zadig Wings.avif" alt="Zadig & Voltaire">
+    </a>
+  
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('.menu');
+      menu.classList.toggle('show');
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Men - Essenzza</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="men.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">ESSENZZA</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="women.html">Women</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="title">Men's Collection</h1>
+    <p class="intro">Descubre nuestra selección exclusiva de ropa para hombres, con lo último en moda urbana y premium.</p>
+
+    <div class="product">
+      <img src="public/img/Essentials.webp" alt="Chamarra Essentials">
+      <div class="product-info">
+        <h2>Chamarra Essentials</h2>
+        <p>Una prenda icónica de la marca Essentials, perfecta para un estilo moderno y minimalista.</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="public/img/Allsaints.webp" alt="Camisa AllSaints">
+      <div class="product-info">
+        <h2>Camisa AllSaints</h2>
+        <p>Estilo refinado con la calidad y diseño característico de AllSaints. Ideal para cualquier ocasión.</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="public/img/golden goose v star.jpg" alt="Tenis Golden Goose">
+      <div class="product-info">
+        <h2>Tenis Golden Goose</h2>
+        <p>Una combinación de lujo y estilo urbano. Los Golden Goose son esenciales para un look premium.</p>
+      </div>
+    </div>
+
+    <div class="fashion-tips">
+      <h2>Cómo elegir el mejor outfit</h2>
+      <ol>
+        <li>Define tu estilo personal.</li>
+        <li>Elige prendas que combinen bien.</li>
+        <li>Opta por calidad sobre cantidad.</li>
+        <li>Usa accesorios que complementen el look.</li>
+        <li>Siéntete cómodo y seguro con lo que usas.</li>
+      </ol>
+    </div>
+
+    <div class="brands">
+      <h2>Marcas que encontrarás en Essenzza</h2>
+      <ul>
+        <li>🧥 Essentials</li>
+        <li>👕 AllSaints</li>
+        <li>👟 Golden Goose</li>
+        <li>🧥 Ami Paris</li>
+        <li>👜 Zadig & Voltaire</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('.menu');
+      menu.classList.toggle('show');
+    }
+  </script>
+
+</body>
+</html>

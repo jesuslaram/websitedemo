@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Essenzza</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="logo">ESSENZZA</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="men.html">Men</a>
+      <a href="women.html">Women</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <div class="about-container">
+    <h1>Sobre Essenzza</h1>
+    <p>Essenzza nace de la pasión por la moda urbana moderna, fusionando estilo y autenticidad. Nuestra misión es ofrecer prendas exclusivas que reflejen la personalidad de quienes las usan, con diseños que destacan por su calidad, comodidad y sofisticación.</p>
+
+    <div class="about-video">
+      <iframe src="https://www.youtube.com/embed/vxYLL5IlTXI?si=hDutusJcJTzwT_vG" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('.menu');
+      menu.classList.toggle('show');
+    }
+  </script>
+
+</body>
+</html>
